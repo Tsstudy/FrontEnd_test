@@ -1,0 +1,158 @@
+body {
+    background-color: aquamarine;
+    color: blueviolet;
+    font-family: monospace;
+    font-size: 15px;
+    font-weight: normal;
+    font:normal;
+    line-height: 1em;
+    
+
+
+}
+.box1 { 
+    background-color: cornflowerblue;
+    color: cornsilk;
+    border: 5px blue solid;
+    border-right: 5px red solid;
+    border-left: 8px blue solid;
+    border-top: 10px green solid;
+    border-bottom: 1px firebrick double;
+    border-bottom-width: 8px;
+    border-bottom-style: dashed;
+
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+
+}
+
+.box2 {
+    border: 5px dotted #cccccc;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 35px ;
+    position: relative;
+   
+}
+
+.box1 h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing:  1em;
+    word-spacing: 0.5em;
+
+}
+
+.box2 h1 {
+    text-align: center;
+}
+
+ Button {
+     background-color: #444444;
+     color: #fff;
+     padding: 10px 5px;
+ }
+
+ button:hover {
+      background-color: red;
+ }
+
+ button:active {
+     background-color: #fff;
+
+ }
+
+.container {
+    width: 80%;
+    margin: auto;
+} 
+
+.list li{
+    background-color: #fff;
+    list-style-image: url('../img/duigou.jpeg');
+}
+
+a {
+     text-decoration: none;
+     color: #555555;
+
+}
+a:hover {
+    color: cyan;
+}
+a:visited {
+    color: red;
+}
+
+.block {
+    float: left;
+    width: 33.3%;
+    border: 1px solid #cccccc;
+    box-sizing:  border-box;
+}
+.clearfix {
+    clear: both;
+}
+#main-block {
+    float: left;
+    width: 70%;
+    border: 1px solid #cccccc;
+    box-sizing:  border-box;
+}
+
+#side-bar {
+    float: left;
+    width: 30%;
+    border: 1px solid #cccccc;
+    box-sizing:  border-box;
+}
+.clearfix {
+    clear: both;
+}
+
+.list2 li:nth-child(even) {
+    background-color:grey;
+}
+
+.list2 li:first-child {
+    background-color: red;
+}
+
+.list2 li:nth-child(3){
+    color: yellow ;
+}
+
+.position-box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.position-box h1 {
+    position: absolute;
+    top: 50px;
+}
+
+.position-box h2 {
+    position: absolute;
+    left:  30px;
+}
+
+#fixed {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
